@@ -1,6 +1,6 @@
 url: ''
 baseurl: ''
-title: 'Jekyllwind'
+title: 'Gathuku'
 
 plugins:
   - jekyll-postcss
