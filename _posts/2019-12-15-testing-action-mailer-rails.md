@@ -1,8 +1,7 @@
 ---
-layout: default
+layout: post
 title: Testing ActionMailer in Rails
-subtitle: Testing ActionMailer in Rails
-cover-img: /assets/img/action_mailer.jpeg
+description: Rails provide us with useful test helpers to ActionMailer which helps to easily iterate our design, test if our code queues the right email and our email contains the right content.
 tags: [rails, testing]
 ---
 
