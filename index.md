@@ -3,60 +3,66 @@ layout: default
 title: "Moses"
 ---
 
-<div class="flex flex-col justify-between max-w-4xl min-h-screen p-6 py-24 mx-auto bg-white">
-  <div class="grid gap-3 md:grid-cols-6">
-    <div class="col-span-4">
-      <div class="">
-        <img class="w-auto h-32" src="/assets/images/avatar.png">
-      </div>
-      <div>
-        <h1 class="mb-12 text-xl">
-          <span class="block text-xl font-semibold text-red-700">
-            Moses Gathuku
-          </span>
-          <span class="text-2xl font-extrabold text-gray-900 md:text-4xl">
-            Expert Ruby on Rails product developer
-          </span>
-        </h1>
-      </div>
-      <div class="text-base font-normal leading-relaxed text-left text-gray-900">
-        <p>
-          I am Moses Gathuku, an expert Ruby on Rails product developer.
-        </p>
-        <p>
-          I help businesses and individuals build and lunch fully-fledged products and MVPs
-        </p>
-        <p>
-          I have been working with Rails since 2019, back then on Rails 5.2 when I was new and learning. I found Rails to be interesting as someone who was doing PHP/LARAVEL before and I have never turned back.
-        </p>
-        <p>
-          Apart from day-to-day work with different clients, I work on my side projects. Currently am building 
-          <a href="https://errorready.com" class="text-blue-600">ErrorReady</a> a Ruby on Rails error monitoring app
-        </p>
-      </div>
-      <div class="my-8">
-        <a href="mailto:hey@gathuku.me" class="px-4 py-3 text-white bg-red-700 rounded-md">Send me an email</a>
-      </div>
+<div class="max-w-4xl min-h-screen p-6 py-24 mx-auto bg-white">
+  <div>
+    <div class="">
+      <img class="w-auto h-32" src="/assets/images/avatar.png">
     </div>
-    <div class="col-span-2 md:mt-16">
-     <span class="text-sm font-bold">Latest articles </span>
-      <ul>
-        {% for post in site.posts %}
-          <li class="devide-y">
-            <a class="my-3 text-blue-600" href="{{ post.url }}">{{ post.title }}</a>
-          </li>
-        {% endfor %}
-      </ul>
+    <div>
+      <h1 class="text-xl">
+        <span class="block text-xl font-semibold text-red-700">
+          Moses Gathuku
+        </span>
+        <span class="text-2xl font-extrabold text-gray-900 md:text-4xl">
+          Expert Ruby on Rails product <br> developer
+        </span>
+      </h1>
     </div>
-  </div>
-  
-  <div class="flex justify-center">
-    <a href="https://twitter.com/Gathukumose">
-      <svg class="w-12 h-12 text-blue-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-      <!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
-      <path fill="currentColor" d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/>
+    <div class="w-2/3 mt-3 prose">
+      <p>
+        I am Moses Gathuku, an expert Ruby on Rails product developer. I help businesses and individuals build and lunch fully-fledged products and MVPs.
+        Apart from day-to-day work with different clients, I work on my side projects. Currently am building 
+        <a href="https://errorready.com" class="text-blue-600">ErrorReady</a> a Ruby on Rails error monitoring app
+      </p>
+    </div>
+    <div class="flex mt-3 space-x-3">
+      <a href="https://twitter.com/Gathukumose">
+      <svg viewBox="0 0 24 24" aria-hidden="true" class="w-8 h-8 transition fill-gray-500 group-hover:fill-gray-600 dark:fill-gray-400 dark:group-hover:fill-zinc-300">
+        <path d="M20.055 7.983c.011.174.011.347.011.523 0 5.338-3.92 11.494-11.09 11.494v-.003A10.755 10.755 0 0 1 3 18.186c.308.038.618.057.928.058a7.655 7.655 0 0 0 4.841-1.733c-1.668-.032-3.13-1.16-3.642-2.805a3.753 3.753 0 0 0 1.76-.07C5.07 13.256 3.76 11.6 3.76 9.676v-.05a3.77 3.77 0 0 0 1.77.505C3.816 8.945 3.288 6.583 4.322 4.737c1.98 2.524 4.9 4.058 8.034 4.22a4.137 4.137 0 0 1 1.128-3.86A3.807 3.807 0 0 1 19 5.274a7.657 7.657 0 0 0 2.475-.98c-.29.934-.9 1.729-1.713 2.233A7.54 7.54 0 0 0 22 5.89a8.084 8.084 0 0 1-1.945 2.093Z"></path>
       </svg>
-    </a>
+      </a>
+      <a href="https://github.com/gathuku">
+      <svg viewBox="0 0 24 24" aria-hidden="true" class="w-8 h-8 transition fill-zinc-500 group-hover:fill-zinc-600 dark:fill-zinc-400 dark:group-hover:fill-zinc-300">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.475 2 2 6.588 2 12.253c0 4.537 2.862 8.369 6.838 9.727.5.09.687-.218.687-.487 0-.243-.013-1.05-.013-1.91C7 20.059 6.35 18.957 6.15 18.38c-.113-.295-.6-1.205-1.025-1.448-.35-.192-.85-.667-.013-.68.788-.012 1.35.744 1.538 1.051.9 1.551 2.338 1.116 2.912.846.088-.666.35-1.115.638-1.371-2.225-.256-4.55-1.14-4.55-5.062 0-1.115.387-2.038 1.025-2.756-.1-.256-.45-1.307.1-2.717 0 0 .837-.269 2.75 1.051.8-.23 1.65-.346 2.5-.346.85 0 1.7.115 2.5.346 1.912-1.333 2.75-1.05 2.75-1.05.55 1.409.2 2.46.1 2.716.637.718 1.025 1.628 1.025 2.756 0 3.934-2.337 4.806-4.562 5.062.362.32.675.936.675 1.897 0 1.371-.013 2.473-.013 2.82 0 .268.188.589.688.486a10.039 10.039 0 0 0 4.932-3.74A10.447 10.447 0 0 0 22 12.253C22 6.588 17.525 2 12 2Z"></path>
+      </svg>
+      </a>
+    </div>
+    
+    <div class="my-8">
+      <a href="mailto:hey@gathuku.me" class="px-4 py-3 text-white bg-red-700 rounded-md">Send me an email</a>
+    </div>
   </div>
-
+  <div class="mx-3">
+    <div class="grid max-w-2xl grid-cols-1 pt-10 mx-auto mt-10 gap-y-16 gap-x-8 lg:mx-0 lg:max-w-none lg:grid-cols-2">
+      {% for post in site.posts %}
+        <article class="flex flex-col items-start justify-between max-w-xl">
+          <div class="flex items-center text-xs gap-x-4">
+            <time datetime="2020-03-16" class="text-gray-500">{{ post.date | date_to_string }}</time>
+            <a href="#" class="relative z-10 rounded-full bg-gray-50 py-1.5 px-3 font-medium text-gray-600 hover:bg-gray-100">{{ post.tags }}</a>
+          </div>
+          <div class="relative group">
+            <h3 class="mt-3 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-600">
+              <a href="{{ post.url }}">
+                <span class="absolute inset-0"></span>
+                {{ post.title }}
+              </a>
+            </h3>
+            <p class="mt-5 text-sm leading-6 text-gray-600 line-clamp-3">
+              {{ post.description }}
+            </p>
+          </div>
+        </article>
+      {% endfor %}
+    </div>
+  </div>
 </div>
