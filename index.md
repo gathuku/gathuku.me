@@ -14,7 +14,7 @@ title: "Moses"
           Moses Gathuku
         </span>
         <span class="text-2xl font-extrabold text-gray-900 md:text-4xl">
-          Expert Ruby on Rails product <br> developer
+          Ruby on Rails product developer
         </span>
       </h1>
     </div>
@@ -39,7 +39,7 @@ title: "Moses"
     </div>
     
     <div class="my-8">
-      <a href="mailto:hey@gathuku.me" class="px-4 py-3 text-white bg-red-700 rounded-md">Send me an email</a>
+      <a href="mailto:hey@gathuku.me" class="px-4 py-3 text-white bg-red-700 rounded-md">Say hey</a>
     </div>
   </div>
   <div class="mx-3">
