@@ -86,4 +86,4 @@ If the user starts searching, timeouts are scheduled and cancelled immediately (
 
 This works as a charm, scheduling and clearing timeouts happen very fast.
 
-> [@hopesoft](https://github.com/hopsoft) has made a [great package debounce](https://github.com/hopsoft/debounced) that is tailured to work with Stimulus and Stimulus reflex
+> [@hopesoft](https://github.com/hopsoft) has made a [great package debounce](https://github.com/hopsoft/debounced) that is tailored to work with Stimulus and Stimulus reflex
