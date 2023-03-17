@@ -3,7 +3,7 @@ layout: default
 title: "Moses"
 ---
 
-<div class="max-w-4xl min-h-screen p-6 py-24 mx-auto bg-white">
+<div class="max-w-4xl min-h-screen p-6 py-12 mx-auto bg-white md:py-24">
   <div>
     <div class="">
       <img class="w-auto h-32" src="/assets/images/avatar.png">
@@ -18,7 +18,7 @@ title: "Moses"
         </span>
       </h1>
     </div>
-    <div class="w-2/3 mt-3 prose">
+    <div class="w-full mt-3 prose md:w-2/3">
       <p>
         I am Moses Gathuku, an expert Ruby on Rails product developer. I help businesses and individuals build and lunch fully-fledged products and MVPs.
         Apart from day-to-day work with different clients, I work on my side projects. Currently am building 
@@ -39,7 +39,7 @@ title: "Moses"
     </div>
     
     <div class="my-8">
-      <a href="mailto:hey@gathuku.me" class="px-4 py-3 text-white bg-red-700 rounded-md">Say hey</a>
+      <a href="mailto:hey@gathuku.me" class="px-6 py-3 text-white bg-red-700 rounded-md">Say hey</a>
     </div>
   </div>
   <div class="mx-3">
