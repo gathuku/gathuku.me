@@ -3,6 +3,7 @@ layout: post
 title: Custom Rails form submit debounce
 author: Moses Gathuku
 tags: [rails, hotwire]
+image: /assets/images/debounce.png
 description: This is mostly applied in typehead searching, when a user is typing you can listen to the input event and submit a form that returns search results from the server.
 ---
 
