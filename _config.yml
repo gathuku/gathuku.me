@@ -1,9 +1,21 @@
 url: ''
 baseurl: ''
-title: 'Gathuku'
+title: 'Moses Gathuku site'
+tagline: Bloging my day to day experience with Ruby and Rails
+author: Moses Gathuku
+twitter:
+  username: Gathukumose
+  card: summary
+logo: /assets/images/avatar.png
+social:
+  name: Moses Gathuku
+  links:
+    - 'https://twitter.com/Gathukumose'
+    - 'https://github.com/gathuku'
 
 plugins:
   - jekyll-postcss
+  - jekyll-seo-tag
 
 postcss:
   cache: false
