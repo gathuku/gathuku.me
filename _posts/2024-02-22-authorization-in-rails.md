@@ -30,7 +30,7 @@ Now that we have something to work on let's assume we want to restrict articles 
 First, we'll need to implement the authorization logic, to do this let's add this to a [controller concern](https://api.rubyonrails.org/classes/ActiveSupport/Concern.html).
 
 ```
-app/controllers/concerns/authorizable.rb
+# app/controllers/concerns/authorizable.rb
 
 
 module Authorizeable
@@ -65,7 +65,7 @@ The concern will do several things.
 2. Add an `authorize!` method with accepts action and object arguments. This method also raises `UnauthorizedError` if a user isn't allowed to access an action. `UnauthorizedError` is a custom error added in an autoloadable place. 
 
 ```
- app/models/unauthorized_error.rb
+ # app/models/unauthorized_error.rb
  class UnauthorizedError < StandardError; end
 ```
 
@@ -76,6 +76,8 @@ The concern will do several things.
 Now let's include this module in the `ArticlesController` to authorize the new action.
 
 ```rb
+# app/controllers/articles/controller
+
 class ArticlesController
   include Authorizeable
 
@@ -91,6 +93,8 @@ end
 To do this will need an `ArticlePolicy` class to define policies. From this policy, only admin users are allowed to create an article.
 
 ```rb
+# app/policies/article_policy.rb
+
 class ArticlePolicy
   def initialize(user, object)
     @user = user
@@ -115,6 +119,8 @@ With these changes in place, if users without access click the `New article` lin
 You can also render this link conditionally depending on whether a user has access.
 
 ```
+# app/views/articles/index.html.erb
+
 <% if allowed_to?(:create?, Article.new) %>
   <%= link_to "New article", new_article_path %>
 <% end %>
