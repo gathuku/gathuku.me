@@ -11,7 +11,7 @@ In the dynamic world of web development, Rails remains a reliable framework reno
 
 In this article, we look a how we can add authorization to a Rails app without the need to add a gem. The goal is to keep things simple, ship fast, and avoid dependency hell.
 
-We'll start by creating a simple blog application(with all rails default ie SQLite, and importmaps)
+We'll start by creating a simple blog application (with all Rails defaults such as SQLite and importmaps).
 
 
 ```
