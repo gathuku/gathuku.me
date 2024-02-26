@@ -14,8 +14,8 @@ In this article, we look a how we can add authorization to a Rails app without t
 We'll start by creating a simple blog application.
 
  Assumptions:
- - You already have a current_user helper method from your authorization logic/gem.
- - You're primarily using default Rails database, SQLite.
+ - You already have a `current_user` helper method from your authorization logic/gem.
+ - You're primarily using default Rails database, `SQLite`.
 
 
 ```
