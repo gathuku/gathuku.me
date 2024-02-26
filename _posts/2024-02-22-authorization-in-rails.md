@@ -18,7 +18,7 @@ We'll start by creating a simple blog application (with all Rails defaults such 
 rails new blog
 ```
 
-Next, create an article scaffold, migrate the database and create some test records.
+Next, we create an article scaffold, migrate the database, and create some test records.
 
 ```
 rails g scaffold Article title:string body:text
