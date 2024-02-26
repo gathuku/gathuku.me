@@ -3,7 +3,7 @@ layout: post
 title: Boring authorization in rails
 author: Moses Gathuku
 tags: [rails]
-description: In this article, we look a how we can add authorization to to rails app without the need for pulling a gem to keep this simple, ship fast and avoid dependency hell.
+description: In this article, we look a how we can add authorization to a Rails app without the need to add a gem. The goal is to keep things simple, ship fast, and avoid dependency hell.
 ---
 
 
