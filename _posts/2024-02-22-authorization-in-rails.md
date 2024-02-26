@@ -62,7 +62,7 @@ The concern will do several things.
 
 1. Add an `allowed_to?` helper method that accepts `action` and `object` parameters, with a default `user` parameter to `current_user`. This method checks if an action is permitted in a matching policy class.
 
-2. Add an `authorize!` method with accepts action and object arguments. This method also raises `UnauthorizedError` if a user isn't allowed to access an action. `UnauthorizedError` is a custom error added in an autoloadable place. 
+2. Add an `authorize!` method, which accepts `action` and `object` arguments. This method also raises `UnauthorizedError` if a user isn't allowed to access an action. `UnauthorizedError` is a custom error, which can be added in any folder that is autoloaded by Rails. 
 
 ```
  # app/models/unauthorized_error.rb
