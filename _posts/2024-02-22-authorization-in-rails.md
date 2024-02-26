@@ -9,7 +9,7 @@ description: In this article, we look a how we can add authorization to to rails
 
 In the dynamic world of web development, Rails remains a reliable framework renowned for its simplicity and convention over configuration. 
 
-In this article, we look a how we can add authorization to to rails app without the need to pull a gem to keep this simple, ship fast and avoid dependency hell.
+In this article, we look a how we can add authorization to a Rails app without the need to add a gem. The goal is to keep things simple, ship fast, and avoid dependency hell.
 
 We'll start by creating a simple blog application(with all rails default ie SQLite, and importmaps)
 
