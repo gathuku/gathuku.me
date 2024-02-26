@@ -116,7 +116,7 @@ With these changes in place, if users without access click the `New article` lin
 ![Redirect screenshot.](https://share.cleanshot.com/pNf2h8mS)
 
 
-You can also render this link conditionally depending on whether a user has access.
+You can also render this link conditionally, depending on whether or not a user has access.
 
 ```
 # app/views/articles/index.html.erb
