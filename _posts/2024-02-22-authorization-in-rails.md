@@ -11,7 +11,11 @@ In the dynamic world of web development, Rails remains a reliable framework reno
 
 In this article, we look a how we can add authorization to a Rails app without the need to add a gem. The goal is to keep things simple, ship fast, and avoid dependency hell.
 
-We'll start by creating a simple blog application (with all Rails defaults such as SQLite and importmaps).
+We'll start by creating a simple blog application.
+
+ Assumptions:
+ - You already have a current_user helper method from your authorization logic/gem.
+ - You're primarily using default Rails database, SQLite.
 
 
 ```
@@ -125,5 +129,3 @@ You can also render this link conditionally, depending on whether or not a user 
   <%= link_to "New article", new_article_path %>
 <% end %>
 ```
-
-In this blog, I assume you already have a `current_user` helper method from your authorization logic/gem.
