@@ -117,7 +117,7 @@ end
 
 With these changes in place, if users without access click the `New article` link, they will be redirected to the root path with an alert message. 
 
-![Redirect screenshot.](../assets/images/alert.jpeg)
+![Redirect screenshot.](/assets/images/alert.jpeg)
 
 
 You can also render this link conditionally, depending on whether or not a user has access.
