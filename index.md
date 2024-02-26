@@ -20,9 +20,9 @@ title: "Moses"
     </div>
     <div class="w-full mt-3 prose md:w-2/3">
       <p>
-        I am Moses Gathuku, an expert Ruby on Rails product developer. I help businesses and individuals build and lunch fully-fledged products and MVPs.
+        I am Moses Gathuku, an experienced Ruby on Rails product developer. I help businesses and individuals build and lunch fully-fledged products and MVPs.
         Apart from day-to-day work with different clients, I work on my side projects. Currently am building 
-        <a href="https://errorready.com" class="text-blue-600">ErrorReady</a> a Ruby on Rails error monitoring app
+        <a href="https://hotwiredcases.dev" class="text-blue-600">Hotwired cases</a> a collection of Hotwire use cases in a Ruby on Rails application.
       </p>
     </div>
     <div class="flex mt-3 space-x-3">
