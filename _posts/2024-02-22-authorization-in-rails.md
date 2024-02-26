@@ -60,7 +60,7 @@ end
 
 The concern will do several things. 
 
-1. Add `allowed_to?` helper method. Accept action and object parameter with a default user parameter to `current_user`. This method checks if action is permitted from a matching policy class.
+1. Add an `allowed_to?` helper method that accepts `action` and `object` parameters, with a default `user` parameter to `current_user`. This method checks if an action is permitted in a matching policy class.
 
 2. Add an `authorize!` method with accepts action and object arguments. This method also raises `UnauthorizedError` if a user isn't allowed to access an action. `UnauthorizedError` is a custom error added in an autoloadable place. 
 
