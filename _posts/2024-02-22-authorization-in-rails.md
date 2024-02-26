@@ -90,7 +90,7 @@ class ArticlesController
 end
 ```
 
-To do this will need an `ArticlePolicy` class to define policies. From this policy, only admin users are allowed to create an article.
+To do this, we will need an `ArticlePolicy` class to define policies. Based on this policy, only admin users are allowed to create an article.
 
 ```rb
 # app/policies/article_policy.rb
