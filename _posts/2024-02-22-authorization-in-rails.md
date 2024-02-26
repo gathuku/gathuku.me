@@ -25,7 +25,7 @@ rails g scaffold Article title:string body:text
 ```
 
 
-Now that we have something to work on let's assume we want to restrict articles create feature only to admin users. 
+Now that we have something to work with, let's assume we want to restrict the article creation feature to admin users. 
 
 First, we'll need to implement the authorization logic, to do this let's add this to a [controller concern](https://api.rubyonrails.org/classes/ActiveSupport/Concern.html).
 
