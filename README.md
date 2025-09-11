@@ -1,1 +1,2 @@
-My personal website https://gathuku.me
+My personal website https://gathuku.dev
+
