@@ -39,7 +39,7 @@ title: "Moses"
     </div>
     
     <div class="my-8">
-      <a href="mailto:hey@gathuku.me" class="px-6 py-3 text-white bg-red-700 rounded-md">Say hey</a>
+      <a href="mailto:hey@gathuku.dev" class="px-6 py-3 text-white bg-red-700 rounded-md">Say hey</a>
     </div>
   </div>
   <div class="mx-3">
