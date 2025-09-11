@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Mission control custom authentication with rails 8 authentication.
+title: Securing mission control with Rails 8 authentication.
 author: Moses Gathuku
 tags: [rails]
 description: Learn how to integrate custom authentication into Rails Mission Control Jobs by overriding the base controller and handling isolated engine routes with main_app
